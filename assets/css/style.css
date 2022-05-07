@@ -1,0 +1,22 @@
+*{
+	padding:0px;
+	margin:0px;
+	box-sizing:border-box;
+}
+.header{
+	height: 100vh;
+	background-color:#000;
+	color:gray;
+	position: relative;
+}
+.digitalClock{
+   position:absolute;
+   top:50%;
+   left:50%;
+   transform: translate(-50%,-50%);
+}
+#DC{
+	font-size:60px;
+	box-shadow: 2px 6px 25px 12.1px;
+	text-shadow: 10px 2px 7px grey;
+}
